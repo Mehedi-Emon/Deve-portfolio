@@ -14,7 +14,7 @@ body
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 150px 0 150px;
 
 
     }
@@ -50,10 +50,11 @@ color: dimgray;
     padding: 15px 30px;
 }
 .header{
-   background-color: bisque;
+   background-color: #fff8f3;
    background-image: url("../images/header_bg.png");
    background-repeat: no-repeat;
    background-position: bottom right;
+  
 }
 .banner{
     margin: 20px 15px 0  100px;
@@ -73,4 +74,22 @@ color: dimgray;
 }
 .names{
    margin-top: 5px;
+}
+/* About section */
+
+.about{
+    padding: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    margin: 140px 160px ;
+}
+.section-title  {
+    text-align: center;
+    font-family: 25px;
+    font-weight: 700;
+}
+.section-desription {
+    text-align: center;
+    
+
 }

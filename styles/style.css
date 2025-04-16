@@ -1,14 +1,32 @@
+/* google - font */
+body 
+    {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+
+   /* nav related work */
+
 nav {
     display: flex;
+    justify-content: space-between;
+
     }
 .title-text{
-    color: red;
+    color: orangered;
 }
 .title{
     font-size: xx-large;
+    font-size: 60px;
+    font-weight: 700;
 }
 nav > ul {
     display: flex;
+    align-items: center;
     
 }
 nav li {
@@ -17,11 +35,15 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: rgb(188, 181, 194);
+color: dimgray;
   
 }
 .btn-primary{
-    background-color:red;
+    background-color:orangered;
     border: 0;
     border-radius: 3px;
+    font-size: 20px;
+    
+    color: white;
+    padding: 15px 30px;
 }

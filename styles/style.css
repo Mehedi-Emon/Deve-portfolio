@@ -1,15 +1,14 @@
 /* google - font */
-body 
-    {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings:
-          "wdth" 100;
-      }
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 
-   /* nav related work */
+/* nav related work */
 
 nav {
     display: flex;
@@ -17,93 +16,135 @@ nav {
     margin: 0 150px 0 150px;
 
 
-    }
-.title-text{
+}
+
+.title-text {
     color: orangered;
 }
-.title{
+
+.title {
     font-size: xx-large;
     font-size: 60px;
     font-weight: 700;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
-  text-decoration: none;
-color: dimgray;
-  
+    text-decoration: none;
+    color: dimgray;
+
 }
-.btn-primary{
-    background-color:orangered;
+
+.btn-primary {
+    background-color: orangered;
     border: 0;
     border-radius: 5px;
     font-size: 20px;
-    
+
     color: white;
     padding: 15px 30px;
 }
-.header{
-   background-color: #fff8f3;
-   background-image: url("../images/header_bg.png");
-   background-repeat: no-repeat;
-   background-position: bottom right;
-  
+
+.header {
+    background-color: #fff8f3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
-    margin: 20px 15px 0  100px;
+
+.banner {
+    margin: 20px 15px 0 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-   
+
+
 }
+
 .profile picture {
     width: 300px;
     height: 100px;
-  
+
 }
-.name{
-   margin-bottom: 0;
+
+.name {
+    margin-bottom: 0;
 }
-.names{
-   margin-top: 5px;
+
+.names {
+    margin-top: 5px;
 }
+
 /* About section */
 
-.about{
+.about {
     padding: 130px;
     background: #fff8f3;
     border-radius: 10px;
-    margin: 140px 160px ;
+    margin: 140px 160px;
 }
-.section-title  {
+
+.section-title {
     text-align: center;
     font-family: 25px;
     font-weight: 700;
 }
+
 .section-desription {
     text-align: center;
-    
+
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.about-info{
+
+.about-info {
     text-align: center;
-   
-   
+
+
 }
+
 #what-i-do {
     text-align: center;
     padding: 30px 150px;
+    color: dimgrey;
+}
+
+/* skills related styles */
+
+.skills-container {
+    display: flex;
+    margin: 0 160px;
+    gap: 25px;
+    box-shadow: 0 3px 10px 0 rgb(107, 106, 106);
+    margin-bottom: 100px;
+
+}
+
+.skills {
+    padding: 30px;
+
+}
+
+.skills-description {
+    color: dimgrey;
+    background: #f5f3f3;
+    box-shadow: 0 2px 5px 0 dimgray;
+    font-size: 14PX;
+
 }

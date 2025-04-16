@@ -43,7 +43,7 @@ color: dimgray;
 .btn-primary{
     background-color:orangered;
     border: 0;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 20px;
     
     color: white;
@@ -51,14 +51,26 @@ color: dimgray;
 }
 .header{
    background-color: bisque;
-   
+   background-image: url("../images/header_bg.png");
+   background-repeat: no-repeat;
+   background-position: bottom right;
 }
 .banner{
-    margin: 0 120px;
+    margin: 20px 15px 0  100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+   
 }
 .profile picture {
     width: 300px;
-    height: 200px;
+    height: 100px;
+  
+}
+.name{
+   margin-bottom: 0;
+}
+.names{
+   margin-top: 5px;
 }

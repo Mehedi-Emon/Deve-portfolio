@@ -85,6 +85,9 @@ nav a {
 .names {
     margin-top: 5px;
 }
+main section {
+    margin-top: 130px;
+}
 
 /* About section */
 
@@ -147,4 +150,9 @@ nav a {
     box-shadow: 0 2px 5px 0 dimgray;
     font-size: 14PX;
 
+}
+/* resume section styles */
+
+.resume-colum-title{
+font-size: 16px;
 }

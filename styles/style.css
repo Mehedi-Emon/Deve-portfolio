@@ -163,6 +163,9 @@ main section {
     display: flex;
     margin: 70px 160px;
     gap: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+   
 
 
 }
@@ -170,7 +173,7 @@ main section {
 .resume-institution {
     color: dimgrey;
     font-size: 14PX;
-    background-color: whitesmoke;
+    background-color: white;
     display: inline-block;
 
  
@@ -182,4 +185,14 @@ main section {
 .download-btn {
    text-align: center;
    margin-top: 0;
+}
+
+/* footer-related style */
+
+footer{
+    display: flex;
+    background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200pxJ;
+
 }

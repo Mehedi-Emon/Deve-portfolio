@@ -94,7 +94,7 @@ main section {
 
 .about {
     padding: 130px;
-    background: #fff8f3;
+    background: whitesmoke;
     border-radius: 10px;
     margin: 140px 160px;
 }
@@ -193,6 +193,27 @@ footer{
     display: flex;
     background: #fff8f3;
   margin-top: 100px;
-  padding: 130px 200pxJ;
+  padding: 130px 200px;
+  gap: 100px;
 
+
+}
+.footer-description{
+    color: dimgrey;
+    font-size: 14PX;
+}
+.contact input , textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 13px 30px;
+    color:dimgrey ;
+    border: 0;
+}
+.last-btn  {
+    background-color: orangered;
+    border: 0;
+    border-radius: 3px;
+    font-size: 13px;
+    color: black;
+   
 }

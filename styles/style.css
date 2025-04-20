@@ -14,6 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 150px 0 150px;
+   
 
 
 }
@@ -45,7 +46,7 @@ nav a {
 
 }
 
-.btn-primary {
+.btn-primary{
     background-color: orangered;
     border: 0;
     border-radius: 5px;
@@ -53,15 +54,22 @@ nav a {
 
     color: white;
     padding: 15px 30px;
+    
+    
 }
 
-.header {
+
+
+.header{
     background-color: #fff8f3;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+    
+   
 
 }
+
 
 .banner {
     margin: 20px 15px 0 100px;
